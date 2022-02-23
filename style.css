@@ -3,46 +3,46 @@ HTML {
 }
 
 #title {
-    width:60%;
-    margin:auto;
+    width: 60%;
+    margin: auto;
     border: 5px solid black;
     padding: 10px;
 }
 
 .textarea {
-    display:block;
-    align-self:center;
+    display: block;
+    align-self: center;
     width: 100%;
     overflow: hidden;
     resize: vertical;
     line-height: 20px;
     min-height: 200px;
-    margin:50px;
+    margin: 50px;
 }
 
 #input {
-    margin:10px;
+    margin: 10px;
     background-color: white;
     border: 1px solid grey;
     border-radius: 20px;
-    padding:10px;
+    padding: 10px;
     outline: none;
 }
 
 #buttons {
     width: 100%;
-    color:white;
+    color: white;
 }
 
 #prettifybutton {
-    border-radius:10px;
-    border-color:white;
-    width:40%;
-    height:50px;
-    font-size:larger;
-    color:black;
-    background-color:white;
-    border-width:2px;
-    border-color:grey;
-    font-style:normal;
+    border-radius: 10px;
+    border-color: white;
+    width: 40%;
+    height: 50px;
+    font-size: larger;
+    color: black;
+    background-color: white;
+    border-width: 2px;
+    border-color: grey;
+    font-style: normal;
 }
