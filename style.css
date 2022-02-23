@@ -11,12 +11,13 @@ HTML {
 
 .textarea {
     display:block;
-    width: 100%;
+    align-self:center;
+    width: 90%;
     overflow: hidden;
     resize: vertical;
     line-height: 20px;
     min-height: 200px;
-    
+    margin:50px;
 }
 
 #input {
