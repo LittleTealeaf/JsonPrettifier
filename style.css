@@ -20,6 +20,7 @@ HTML {
 }
 
 #input {
+    margin:10px;
     background-color: white;
     border: 1px solid grey;
     border-radius: 20px;
