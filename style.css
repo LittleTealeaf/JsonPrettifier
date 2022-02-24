@@ -1,5 +1,6 @@
 HTML {
     background-color: white;
+    overflow-wrap: break-word;
 }
 
 #title {
@@ -49,5 +50,4 @@ HTML {
 
 #error {
     color:red;
-    
 }

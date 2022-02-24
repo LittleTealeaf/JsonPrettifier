@@ -18,5 +18,3 @@ function buttonPrettify() {
     console.log(document.getElementById("input").innerHTML);
     document.getElementById("input").textContent = prettifyJson(json);
 }
-
-document.getElementById("prettifybutton").onclick = buttonPrettify;
