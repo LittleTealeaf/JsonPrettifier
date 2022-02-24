@@ -8,7 +8,7 @@ function prettifyJsonElement(element) {
         displayError("Please Enter a JSON");
     } else {
         try {
-            element.innerHTML = JSON.stringify(JSON.parse(element.textContent),null,'  ');
+            element.textContent = JSON.stringify(JSON.parse(element.textContent),null,'  ');
         } catch(exception) {
             displayError("Invalid JSON");
         }
