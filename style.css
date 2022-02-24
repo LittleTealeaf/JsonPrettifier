@@ -52,8 +52,9 @@ h1 {
 }
 
 #prettify:active {
-    background-color: #ff0000;
+    background-color: #7e7e7e;
     transition: 0.1s;
+    width: 35%;
 }
 
 #error {
