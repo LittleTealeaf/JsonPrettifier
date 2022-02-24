@@ -3,24 +3,21 @@ function displayError(text) {
     document.getElementById("error").innerHTML=text;
 }
 
-function prettifyJson(text) {
-    if(text == "") {
-        displayError("Please Enter JSON");
+function prettifyJsonElement(element) {
+    if(element.textContent == "") {
+        displayError("Please Enter a JSON");
     } else {
         try {
-            return JSON.stringify(JSON.parse(text),null,'  ');
-        } catch(e) {
+            element.innerHTML = JSON.stringify(JSON.parse(element.textContent),null,'  ');
+        } catch(exception) {
             displayError("Invalid JSON");
-            return text;
         }
     }
 }
 
 function buttonPrettify() {
     displayError("");
-    var json = document.getElementById("input").textContent;
-    console.log(document.getElementById("input").innerHTML);
-    document.getElementById("input").textContent = prettifyJson(json);
+    prettifyJsonElement(document.getElementById("input"));
 }
 
 document.getElementById("prettify").onclick = buttonPrettify;
