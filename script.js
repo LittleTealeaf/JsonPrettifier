@@ -1,16 +1,22 @@
+
+function displayError(text) {
+    document.getElementById("error").innerHTML=text;
+}
+
 function prettifyJson(text) {
     try {
-        var json = JSON.parse(text);
-        return JSON.stringify(json);
+        return JSON.stringify(JSON.parse(text),null,'  ');
     } catch(e) {
+        displayError("Invalid JSON");
         return text;
     }
 }
 
-function onPrettify() {
+function buttonPrettify() {
+    displayError("");
     var json = document.getElementById("input").textContent;
     console.log(document.getElementById("input").innerHTML);
     document.getElementById("input").textContent = prettifyJson(json);
 }
 
-document.getElementById("prettifybutton").onclick = onPrettify;
+document.getElementById("prettifybutton").onclick = buttonPrettify;

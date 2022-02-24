@@ -12,7 +12,7 @@ HTML {
 .textarea {
     display: block;
     align-self: center;
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     resize: vertical;
     line-height: 20px;
@@ -45,4 +45,9 @@ HTML {
     border-width: 2px;
     border-color: grey;
     font-style: normal;
+}
+
+#error {
+    color:red;
+    
 }
