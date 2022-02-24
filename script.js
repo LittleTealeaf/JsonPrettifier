@@ -4,11 +4,15 @@ function displayError(text) {
 }
 
 function prettifyJson(text) {
-    try {
-        return JSON.stringify(JSON.parse(text),null,'  ');
-    } catch(e) {
-        displayError("Invalid JSON");
-        return text;
+    if(text == "") {
+        displayError("Please Enter JSON");
+    } else {
+        try {
+            return JSON.stringify(JSON.parse(text),null,'  ');
+        } catch(e) {
+            displayError("Invalid JSON");
+            return text;
+        }
     }
 }
 
