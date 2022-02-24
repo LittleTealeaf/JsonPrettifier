@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <center class="title">
-            <h1>
-                JSON Prettifier
-            </h1>
-        </center>
-        <div id="inputarea">
-            <pre>
-                <span id="input" class="textarea" role="textbox" contenteditable></span>
-            </pre>
-        </div>
-        <br>
-        <center id="buttons">
-            <p id="error"></p>
-            <button id="prettifybutton" onclick="buttonPrettify">
-                Prettify
-            </button>
-        </center>
-    </body>
-    <script src="./script.js"></script>
-</html> 
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <center class="title">
+        <h1>
+            JSON Prettifier
+        </h1>
+        <pre id="inputarea">
+            <span id="input" class="textarea" role="textbox" contenteditable></span>
+        </pre>
+        <button id="prettifybutton">Prettify</button>
+        <p id="error"></p>
+    </center>
+</body>
+<script src="./script.js"></script>
+
+</html>

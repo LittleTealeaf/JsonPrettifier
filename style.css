@@ -3,10 +3,10 @@ HTML {
     overflow-wrap: break-word;
 }
 
-#title {
+h1 {
     width: 60%;
     margin: auto;
-    border: 5px solid black;
+    border: 0px;
     padding: 10px;
 }
 
@@ -28,11 +28,8 @@ HTML {
     border-radius: 20px;
     padding: 10px;
     outline: none;
-}
-
-#buttons {
-    width: 100%;
-    color: white;
+    display:block;
+    text-align: left;
 }
 
 #prettifybutton {
