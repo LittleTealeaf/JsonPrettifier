@@ -23,4 +23,4 @@ function buttonPrettify() {
     document.getElementById("input").textContent = prettifyJson(json);
 }
 
-document.getElementById("prettifybutton").onclick = buttonPrettify;
+document.getElementById("prettify").onclick = buttonPrettify;

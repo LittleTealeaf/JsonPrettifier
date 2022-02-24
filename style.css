@@ -32,17 +32,28 @@ h1 {
     text-align: left;
 }
 
-#prettifybutton {
+#prettify {
     border-radius: 10px;
     border-color: white;
-    width: 40%;
+    width: 30%;
     height: 50px;
     font-size: larger;
     color: black;
-    background-color: white;
+    background-color: #ffffff;
     border-width: 2px;
-    border-color: grey;
+    border-color: #757575;
     font-style: normal;
+    transition: 0.5s;
+}
+
+#prettify:hover {
+    background-color: #c7c7c7;
+    width: 32%;
+}
+
+#prettify:active {
+    background-color: #ff0000;
+    transition: 0.1s;
 }
 
 #error {
