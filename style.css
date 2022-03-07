@@ -30,10 +30,12 @@ h1 {
 
 #input:hover {
     background-color:#cacaca;
-    border-radius: 10px
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
 }
 
-#prettify {
+button {
     border-radius: 10px;
     border-color: white;
     width: 30%;
@@ -47,12 +49,12 @@ h1 {
     transition: 0.5s;
 }
 
-#prettify:hover {
+button:hover {
     background-color: #c7c7c7;
     width: 32%;
 }
 
-#prettify:active {
+button:active {
     background-color: #7e7e7e;
     transition: 0.1s;
     width: 35%;
